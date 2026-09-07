@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ff5c8a" />
+  <title>Do You Love Me? 💖</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-blur blur-1"></div>
+  <div class="bg-blur blur-2"></div>
+
+  <main class="page">
+    <section class="card" id="questionCard">
+      <div class="floating-hearts" aria-hidden="true">
+        <span>💗</span><span>💖</span><span>💕</span><span>💞</span>
+      </div>
+
+      <p class="eyebrow">A tiny question for my favorite person ✨</p>
+      <h1>I Love You <span>❤️</span></h1>
+      <p class="subtitle">Do you love me too?</p>
+
+      <div class="buttons-area" id="buttonsArea">
+        <button class="btn btn-yes" id="yesBtn">Yes, I do 💘</button>
+        <button class="btn btn-no" id="noBtn">No 🙈</button>
+      </div>
+
+      <p class="hint">Choose carefully… the “No” button is a little shy 😌</p>
+    </section>
+
+    <section class="card result-card hidden" id="resultCard">
+      <div class="big-heart">💖</div>
+      <p class="eyebrow">I knew it 😌</p>
+      <h2>I Know You Love Me! 🥰</h2>
+
+      <div class="note">
+        <p>
+          You are one of the most beautiful parts of my life.  
+          Every conversation, every little moment, and every silly memory with you
+          means more to me than I can explain.
+        </p>
+        <p>
+          I don’t need perfect days — I just want more days with you.  
+          Thank you for being you, for making me smile, and for making my world
+          feel a little warmer. ❤️
+        </p>
+        <p class="sign">Forever yours 💌</p>
+      </div>
+
+      <button class="btn replay-btn" id="replayBtn">Ask me again 💕</button>
+    </section>
+  </main>
+
+  <canvas id="confetti"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
